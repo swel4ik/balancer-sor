@@ -609,4 +609,4 @@ export function _derivativeSpotPriceAfterSwapTokenInForExactTokenOut(
 const num = BigNumber.from("12345678901234567890");
 "1.111222233334444555566e+21"
 console.log(
-    'num')
+    num)
