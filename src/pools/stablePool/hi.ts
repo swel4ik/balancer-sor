@@ -606,7 +606,7 @@ export function _derivativeSpotPriceAfterSwapTokenInForExactTokenOut(
         true
     ).div(feeFactor);
 }
-// let x = new BigNumber('1111222233334444555566', '23');
-// "1.111222233334444555566e+21"
+let x = new BigNumber('1111222233334444555566', '23');
+"1.111222233334444555566e+21"
 console.log(
     'hi')
