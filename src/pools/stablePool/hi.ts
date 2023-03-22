@@ -608,9 +608,9 @@ export function _derivativeSpotPriceAfterSwapTokenInForExactTokenOut(
 }
 const amp = BigNumber.from("1472000");
 const balances = [
-    OldBigNumber.from("5.4271966830814916e+23"),
-    OldBigNumber.from("4.4188939033653407e+23"),
-    OldBigNumber.from("3.9213291871146253e+23"),
+    new OldBigNumber("5.4271966830814916e+23"),
+    new OldBigNumber("4.4188939033653407e+23"),
+    new OldBigNumber("3.9213291871146253e+23"),
 ]
 "1.111222233334444555566e+21"
 console.log(
